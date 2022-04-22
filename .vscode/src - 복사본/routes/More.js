@@ -9,7 +9,6 @@ import PlusFriends from '../componets/PlusFriends'
 
 export default function More() {
     const myProfile = profiles[0];
-
     return (
         <>
             <Header tab_name= "More" left_btn= "" right_btn= "fas fa-cog"/>
@@ -54,10 +53,7 @@ export default function More() {
                     </ul>
                 </section>
             </main>
-            <Nav 
-                key={0}
-                val={3}
-            />
+            <Nav />
         </>
     );
 }

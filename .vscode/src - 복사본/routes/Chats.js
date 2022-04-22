@@ -40,10 +40,7 @@ export function Chats(){
 
                 </div>
             </main>
-            <Nav 
-                key={0}
-                val={1}
-            />
+            <Nav />
         </>
     )
 }

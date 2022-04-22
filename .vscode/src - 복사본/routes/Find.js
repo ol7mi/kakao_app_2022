@@ -4,8 +4,6 @@ import Header from '../componets/Header'
 import '../styles/Find.scss'
 
 export default function Find() {
-    const tabbar = document.getElementsByClassName('tab-bar')[0];
-
     return (
         <>
             <Header tab_name= "Find" left_btn= "Edit" />
@@ -23,10 +21,7 @@ export default function Find() {
                     </ul>
                 </section>
             </main>
-            <Nav 
-                key={0}
-                val={2}
-            />
+            <Nav />
         </>
     )
 }

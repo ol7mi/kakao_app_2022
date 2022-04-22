@@ -52,6 +52,8 @@ function Friends() {
         }
     }
 
+    
+
     return (
         <>
             <Header tab_name= "Friends" left_btn= "Manage" right_btn="fas fa-cog" friend_num="1"/>
@@ -98,10 +100,7 @@ function Friends() {
                     </ul>
                 </section>
             </main>
-            <Nav 
-                key={0}
-                val={0}
-            />
+            <Nav />
         </>
     )
 }
