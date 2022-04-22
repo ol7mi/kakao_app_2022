@@ -11,7 +11,7 @@ function App() {
   return (
     //Route 주소창의 주소가 바뀔때마다 불러오는 spa구조
     //Route 에서 사용하는 건 Routes 폴더에 넣어준다.
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Friends />} />
         <Route path="/chats" element={<Chats />} />
