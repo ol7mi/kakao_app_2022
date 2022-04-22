@@ -1,0 +1,11 @@
+[
+    {
+        "id" : "0" ,
+        "name" : "jeon Eun Mi" ,
+        "email" : "ol7mi@naver.com" ,
+        "lastMsg": "hello world",
+        "profileMsg" : "Hello World",
+        "img" : "https://randomuser.me/api/portraits/men/32.jpg",
+        "bg" : "http://placeimg.com/640/480/nature"
+    }
+]
